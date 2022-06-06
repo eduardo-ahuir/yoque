@@ -3,7 +3,7 @@ package Entidades2;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "`clientes vip`")
+@Table(name = "clientes vip")
 public class ClientesVip {
     @EmbeddedId
     private ClientesVipId id;

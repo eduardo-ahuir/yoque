@@ -3,7 +3,7 @@ package Entidades2;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "`relacion cliente gestor`")
+@Table(name = "relacion cliente gestor")
 public class RelacionClienteGestor {
     @EmbeddedId
     private RelacionClienteGestorId id;
