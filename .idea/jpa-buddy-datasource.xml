@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="9b60e385-e62b-444b-bba9-030d31cbfa7e" name="yoque" url="jdbc:mysql://localhost/clientesmenor?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC" driverClass="com.mysql.cj.jdbc.Driver" />
+    </data-sources>
+    <data-source-infos>
+      <data-source-info id="9b60e385-e62b-444b-bba9-030d31cbfa7e" persistence-unit-name="Default" />
+    </data-source-infos>
+  </component>
+</project>

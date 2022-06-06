@@ -1,8 +1,9 @@
 
 package Main;
 
-import DAO.ClientesDAO;
-import Entidades.Clientes;
+import DAO.*;
+import Entidades.*;
+
 import java.util.Scanner;
 
 public class Test {
@@ -10,8 +11,10 @@ public class Test {
          Scanner tcl = new Scanner(System.in);
          Clientes c=new Clientes();
          ClientesDAO cd=new ClientesDAO();
-    
+
+        System.out.println("Nombre del Cliente: ");
          c.setNombre(tcl.nextLine());
+        System.out.println("Apellido del Cliente: ");
          c.setApellidos(tcl.nextLine());
          cd.insertar(c);
     }
